@@ -16,7 +16,7 @@ pip install -r requirements.txt or make setup
 
 ## Run
 
-python scripts/run_pipeline.py or make run  
+python -m scripts.run_pipeline or make run  
 
 Pipeline does:
 1. Downloads dataset from Kaggle  
@@ -94,9 +94,3 @@ scores must be: higher = more anomalous
 
 If opposite:  
 scores = -scores  
-
-## TODO
-
-1. Please someone check metrics.py
-2. Implement model, and try 
-3. Make a seperate branch for your commit please, do not push into main branch plssssss
